@@ -58,7 +58,7 @@ const App = () => {
           <Route path="admin/product/update/:slug" element={<ProductUpdate />} />
           <Route path="admin/orders" element={<AdminOrders />} />
         </Route>
-        <Route path="*" element={<PageNotFound/>} replace />
+        <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </BrowserRouter>
   );
